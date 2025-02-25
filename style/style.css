@@ -1,0 +1,75 @@
+:root {
+    --bg: #11120D;
+    --fw: #FFFBF4;
+    --od: #565449;
+    --b1: #D8CFBC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+/* div {
+    border: 1px solid white;
+} */
+
+body {
+    font-family: 'PT Sans';
+    background-color: var(--bg);
+    color: var(--fw);
+    padding: 1.4rem 5%;
+}
+
+body a {
+    color: var(--fw);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(17, 18, 13, 0.8);
+}
+
+.navbar .logo {
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+    color: var(--b1);
+}
+
+.navbar .navbar-nav a{
+    margin: 1rem;
+}
+
+.hero {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.hero .image img{
+    border-radius: 20px;
+    width: 300px;
+}
+
+.hero .hero-para {
+    margin-left: 1.5rem;
+    padding-right: 6rem;
+}
+
+.hero .hello {
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+}
+
+.hero .description {
+    font-size: 1.4rem;
+    justify-content:space-evenly;
+}
+
+.hero .desc-extra {
+    margin-top: 1.5rem;
+}
